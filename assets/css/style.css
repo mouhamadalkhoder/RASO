@@ -11598,7 +11598,7 @@ font-family: var(--thm-font);
   position: absolute;
   top: 0;
   left: 0;
-  width: 97%;
+  width: 100%;
   height: auto;
   background: rgba(1, 57,106, 0.40);
   z-index: 9;
