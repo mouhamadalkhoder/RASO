@@ -11616,3 +11616,8 @@ font-family: var(--thm-font);
   color:white
 }
 
+@media (max-width: 991px){
+  .b1 h1{
+    font-size:40px
+  }
+}
