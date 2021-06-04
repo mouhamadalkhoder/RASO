@@ -11594,30 +11594,25 @@ font-family: var(--thm-font);
   background: rgb(68, 68, 68); /* IE */
   background: rgba(0, 0, 0, 0.78); /* NON-IE */
 }
-.navbar{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  background: rgba(1, 57,106, 0.40);
-  z-index: 9;
-  position: fixed;
-  height: 70px;
-  padding-left:10px ;
 
-}
-.nav-item{
-  color: black;
-  margin-left: 3px;
-}
 
-.navbar-light .navbar-nav .nav-link{
-  color:white
-}
 
 @media (max-width: 991px){
   .b1 h1{
     font-size:40px
   }
 }
+
+
+@media (max-width: 767px){
+  .section-title .title {
+    margin-top: -50px;
+  }
+}
+
+
+@media (max-width: 767px){
+
+.sigma_custom-arrows {
+  margin-left: 215px;
+}}

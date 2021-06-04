@@ -671,28 +671,5 @@
 })(jQuery);
 
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 300) {
-	    $(".navbar").css("background" , "#01396a");
-     
-      $(".nav-item .li .a").css("color" , "black");
-
-	  }
- 
-	  else{
-		  $(".navbar").css("background" , "rgba(1, 57,106, 0.40)");  
-     
-	  }
-  })
-})
-
-function nav(){
-
-  $(".navbar-nav .nav-item ").css("background-color" , "#01396a");
-  $(".navbar-light .navbar-nav .nav-link").css("color" , "white");
-  $(".navbar-light .navbar-nav .nav-link").css("margin-left" , "5px");
 
 
-}
